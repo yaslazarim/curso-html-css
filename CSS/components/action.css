@@ -1,0 +1,14 @@
+.action{
+    display: inline-flex;
+    align-items: center;
+    color:#171718;
+    font-size: 20px;
+    font-weight: 450;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.action:hover{
+    color: #f5f581;
+    transform: scale(1.05);
+}
