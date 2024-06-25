@@ -1,0 +1,19 @@
+.Button{
+    display: inline-block;
+    background-color: #be82db;
+    box-shadow: 0px 0px 0px;
+    padding: 16px 18px;
+    margin-right: 0px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    color:#171718;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}   
+
+.Button:hover {
+    background-color: #ADD8E6;
+    box-shadow: 0px 0px 15px #75b2c7; 
+    transform: scale(1.05);
+}
