@@ -1,0 +1,35 @@
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../../assets/img/plano-de-fundo-fumaca.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    border-bottom: 5px solid #000;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.banner .box{
+    margin-bottom: 40px;
+}
+
+
+.unicornMoon{
+    display: inline-block;
+    background-image: url(../../assets/img/Cute-unicorn-on-moon-icon-illustration-on-transparent-background-PNG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
+
+.banner .navigation{
+    display: flex;
+    justify-content: space-around;
+}
