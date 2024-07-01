@@ -1,0 +1,20 @@
+.wrapper-skill{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.wrapper-skill .skill-tec{
+    display: flex;
+    width: 430px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+    justify-content: center;
+}
+
+.wrapper-skill .skill-tec:nth-child(odd){
+    margin-right: 100px;
+}
