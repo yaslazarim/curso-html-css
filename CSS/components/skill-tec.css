@@ -5,16 +5,16 @@
     color: #000;
 }
 
-.skill-tec .icon-HTML{
-    box-sizing: border-box;
-    height: 71px;
-    margin-right: 10px;
-    padding-top: 5px;
-    
-}
-
 .skill-tec .right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+
+.skill-tec .icon{
+    width: 70px;
+    height: 75px;
+    margin-right: 10px;
+    padding-top: 5px;
 }
