@@ -1,11 +1,11 @@
-.title{
+.main-title{
     font-family: "Carter One", system-ui;
     font-size: 50px;
     color: #da45a1;
     text-shadow: 3px 3px 0 #000;
 }
 
-.title.-second{
+.main-title.-second{
     color: black;
     text-shadow: none;
     font-size: 40px;
