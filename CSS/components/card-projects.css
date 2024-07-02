@@ -1,0 +1,10 @@
+.card-projects{
+    display: flex;
+}
+
+.card-projects .img-projects{
+    width: 280px;
+    height: 280px;
+    box-shadow: 6px 6px 0 #fff;
+}
+
