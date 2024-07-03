@@ -1,8 +1,10 @@
 .section{
-    background-image: url(../../assets/img/rotacionado.plano-de-fundo-fumaca-.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #f3c6e6;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 5px solid #000;
+}
+
+.section.-thirdBG{
+    background-color: #cca9dd;
 }
