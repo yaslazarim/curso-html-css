@@ -1,4 +1,4 @@
-.banner{
+.main-banner{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,7 +15,7 @@
     width: 550px;
 }
 
-.banner .box{
+.main-banner .box{
     margin-bottom: 40px;
 }
 
@@ -29,7 +29,7 @@
     width: 500px;
 }
 
-.banner .navigation{
+.main-banner .navigation{
     display: flex;
     justify-content: space-around;
 }
