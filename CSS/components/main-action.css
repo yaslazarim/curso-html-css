@@ -1,4 +1,4 @@
-.action{
+.main-action{
     display: inline-flex;
     align-items: center;
     color:#171718;
@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 
-.action:hover{
+.main-action:hover{
     color: #f5f581;
     transform: scale(1.05);
 }
