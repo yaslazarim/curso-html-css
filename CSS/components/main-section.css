@@ -1,10 +1,10 @@
-.section{
+.main-section{
     background-color: #f3c6e6;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 5px solid #000;
 }
 
-.section.-thirdBG{
+.main-section.-thirdBG{
     background-color: #b5dbe7;
 }
