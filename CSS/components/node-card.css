@@ -1,0 +1,39 @@
+.node-card{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.node-card::before{
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    border: 2.5px dashed #000;
+    transform: rotate(90deg) translateX(-63%);
+    bottom: 140px;
+    transform-origin: bottom center;
+}
+
+.node-card .title{
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.node-card .logo{
+    display: flex;
+    align-items: center;
+    height: 140px;
+    border: 5px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f5f581;
+}
+
+.node-card.-clean .logo{
+    padding: 0;
+}
