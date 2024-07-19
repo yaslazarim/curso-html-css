@@ -1,0 +1,48 @@
+.main-carousel{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+}
+
+.main-carousel::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 47px;
+    display: block; 
+    background-color: #000;
+    height: 5px;
+    width: 100%;
+
+}
+
+.main-carousel .button-arrow{
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(50%);
+}
+
+.main-carousel .button-arrow.-left{
+    left: 15px;
+}
+
+.main-carousel .button-arrow.-right{
+    right: 15px;
+}
+
+.main-carousel .card-container{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transform: translateX(100px);
+
+}
