@@ -1,0 +1,17 @@
+.main-footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #b5dbe7;
+}
+
+.main-footer .iconSocialMedia{
+    width: 50px;
+    height: 50px;
+}
+
+.main-footer .action-footer{
+    margin-right: 20px;
+    margin-left: 20px;
+}
