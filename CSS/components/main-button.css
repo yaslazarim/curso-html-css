@@ -22,3 +22,7 @@
 .main-button.-formButton{
     width: 100%;
 }
+
+.main-button.-formButton:hover{
+    transform: scale(1.02);
+}
