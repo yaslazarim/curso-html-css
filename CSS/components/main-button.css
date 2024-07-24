@@ -18,3 +18,8 @@
     box-shadow: 0px 0px 15px #75b2c7; 
     transform: scale(1.05);
 }
+
+.main-button.-fullButton{
+    width: 100%;
+    
+}
